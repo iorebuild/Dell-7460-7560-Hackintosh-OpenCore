@@ -14,23 +14,23 @@ CPU：i5 7200u（我依然觉得CPU会热，希望大佬解决）
 
 蓝牙：已经驱动但是不完美，断断续续，可能和无线驱动有关
 
-### 1、需要的配置
+### 需要的配置
 
 #### 	解锁cfg_lock，如果未解锁请bilibili搜索cfglock参考我的视频解锁
 
 （这是个技术活，失败弄坏电脑本人不承担责任）
 
-#### 2、清除NVRAM
+#### 清除NVRAM
 
 ​	安装好系统后请在OpenCore的引导页面按下空格选择restart nvram然后在bios中重新添加引导
 
-#### 3、耳麦配置
+#### 耳麦配置
 
 耳麦插件的kext已经放到放进去了只需要安装补丁即可
 
 https://github.com/hackintosh-stuff/ComboJack
 
-#### 4、发热解决
+#### 发热解决
 
 ​	发热原因为睿频导致，关闭睿频即可（工具如下）
 
@@ -38,7 +38,7 @@ http://tbswitcher.rugarciap.com
 
 ​	下载free免费版本即可
 
-#### 5、关闭休眠
+#### 关闭休眠
 
 实测容易睡死，建议关闭睡眠
 
@@ -46,8 +46,10 @@ http://tbswitcher.rugarciap.com
 sudo pmset -b sleep 0; sudo pmset -b disablesleep 1
 ```
 
+#### 开机HI-DPI
 
+https://github.com/xzhih/one-key-hidpi
 
-#### 6、其他注意事项
+#### 其他注意事项
 
 ！！！如果安装的是Catalina请不要更新系统，就算是个小补丁也不要更新，会导致Window Server和Kernel_task占用大量的CPU，BigSur没测试，因为很卡不想用
