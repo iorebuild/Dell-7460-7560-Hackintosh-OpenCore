@@ -1,5 +1,8 @@
 # Dell-7460/7560-Hackintosh-OpenCore
 
+基于这个仓库修改
+https://github.com/HowieHye/Dell-7460-Hackintosh-OC
+
 ## 电脑配置
 
 核心显卡：hd620（已完美驱动）
